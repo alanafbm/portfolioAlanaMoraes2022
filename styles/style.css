@@ -571,10 +571,7 @@ h4, p, .contact-info, h5 {
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
-}
-
-.contact-content-con .left-contact {
-  flex: 2;
+  justify-content: center;
 }
 
 .contact-content-con .left-contact h4 {
@@ -613,6 +610,7 @@ h4, p, .contact-info, h5 {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  justify-content: center;
 }
 
 .contact-content-con .left-contact .contact-icon a {
