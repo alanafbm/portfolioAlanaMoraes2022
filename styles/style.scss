@@ -166,34 +166,34 @@ h4, p, .contact-info, h5{
     clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 120%);
 }
 .header-content .left-header .image {
-border-radius: var(--br-sm-2);
-height: 90%;
-width: 68%;
-margin-left: 4rem;
-background-color: var(--color-black);
-transition: all 0.4s ease-in-out;
+    border-radius: var(--br-sm-2);
+    height: 90%;
+    width: 68%;
+    margin-left: 4rem;
+    background-color: var(--color-black);
+    transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-transition: all 0.4s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
 // filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
-filter: grayscale(0);
+    filter: grayscale(0);
 }
 .header-content .right-header {
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding-right: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
 }
 .header-content .right-header .name {
-font-size: 4.5rem;
+    font-size: 4.5rem;
 }
 .header-content .right-header .name span {
-color: var(--color-secondary);
+    color: var(--color-secondary);
 }
 .header-content .right-header p {
     margin: 1.5rem 0;
@@ -307,25 +307,25 @@ color: var(--color-grey-2);
     width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-width: 80%;
+    width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-width: 85%;
+    width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-width: 75%;
+    width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-width: 25%;
+    width: 25%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
-width: 87%;
+    width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
-width: 55%;
+    width: 55%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .gitHub {
-width: 70%;
+    width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
     width: 57%;
@@ -562,102 +562,102 @@ width: 70%;
     margin: 1.5rem 0;
 }
 .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
-border-radius: 30px;
-font-weight: inherit;
-font-size: inherit;
-font-family: inherit;
-padding: 0.8rem 1.1rem;
-outline: none;
-border: none;
-background-color: var(--color-grey-5);
-width: 100%;
-color: var(--color-white);
-resize: none;
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.8rem 1.1rem;
+    outline: none;
+    border: none;
+    background-color: var(--color-grey-5);
+    width: 100%;
+    color: var(--color-white);
+    resize: none;
 }
 .contact-content-con .right-contact .i-c-2 {
-display: flex;
+    display: flex;
 }
 .contact-content-con .right-contact .i-c-2 :last-child {
-margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 .contact-content-con .right-contact .submit-btn {
-display: flex;
-justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 /*Independed components*/
 .btn-con {
-display: flex;
-align-self: flex-start;
+    display: flex;
+    align-self: flex-start;
 }
 
 .main-btn {
-border-radius: 30px;
-color: inherit;
-font-weight: 600;
-position: relative;
-border: 1px solid var(--color-secondary);
-display: flex;
-align-self: flex-start;
-align-items: center;
-overflow: hidden;
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
 }
 .main-btn .btn-text {
-padding: 0 2rem;
+    padding: 0 2rem;
 }
 .main-btn .btn-icon {
-background-color: var(--color-secondary);
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-padding: 1rem;
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
 }
 .main-btn::before {
-content: "";
-position: absolute;
-top: 0;
-right: 0;
-transform: translateX(100%);
-transition: all 0.4s ease-out;
-z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.4s ease-out;
+    z-index: -1;
 }
 .main-btn:hover {
-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 .main-btn:hover::before {
-width: 100%;
-height: 100%;
-background-color: var(--color-secondary);
-transform: translateX(0);
-transition: all 0.4s ease-out;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    transform: translateX(0);
+    transition: all 0.4s ease-out;
 }
 
 .main-title {
-text-align: center;
+    text-align: center;
 }
 .main-title h2 {
-position: relative;
-text-transform: uppercase;
-font-size: 4rem;
-font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
 }
 .main-title h2 span {
-color: var(--color-secondary);
+    color: var(--color-secondary);
 }
 .main-title h2 {
-margin-top: 80px;
-left: 50%;
-color: var(--color-white);
-transition: all 0.4s ease-in-out;
-z-index: -1;
-transform: translate(-50%, -50%);
-font-weight: 800;
-font-size: 6.3rem;
+    margin-top: 80px;
+    left: 50%;
+    color: var(--color-white);
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 6.3rem;
 }
 
 .about-container .left-about p {
-padding-left: 0;
+    padding-left: 0;
 }
 
 @media screen and (max-width: 600px) {
