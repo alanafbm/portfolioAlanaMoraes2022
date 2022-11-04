@@ -66,6 +66,11 @@ h4, p, .contact-info, h5 {
   color: var(--color-white);
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .container {
   display: none;
   transform: translateY(-100%) scale(0);
@@ -97,6 +102,7 @@ h4, p, .contact-info, h5 {
     transform: translateY(0) scaleY(1);
   }
 }
+/* ---------------BTNS--------------------- */
 .controls {
   position: fixed;
   z-index: 10;
@@ -139,7 +145,7 @@ h4, p, .contact-info, h5 {
 }
 
 .theme-btn {
-  top: 5%;
+  top: 90%;
   right: 3%;
   width: 70px;
   height: 70px;
@@ -164,7 +170,33 @@ h4, p, .contact-info, h5 {
   pointer-events: none;
 }
 
-/*Header-content*/
+.langue-btn {
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+
+.langue-btn:active {
+  transform: translateY(-3px);
+}
+
+.langue-btn p {
+  font-size: 1.3rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
+
+/*---------------------HEADER-------------------*/
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -232,7 +264,7 @@ h4, p, .contact-info, h5 {
   font-size: 20px;
 }
 
-/*About*/
+/*---------------------------ABOUT-ME--------------*/
 .about-container {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
@@ -424,7 +456,7 @@ h4, p, .contact-info, h5 {
   transform: translateX(-50%);
 }
 
-/*Timeline*/
+/*------------------TIMELINE---------------------------*/
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -482,6 +514,7 @@ h4, p, .contact-info, h5 {
   color: var(--color-grey-2);
 }
 
+/* ----------------------PORTFOLIO------------------------ */
 .port-text {
   padding: 2rem 0;
   text-align: center;
@@ -568,10 +601,12 @@ h4, p, .contact-info, h5 {
   transform: scale(1);
 }
 
+/* ---------------------CONTACT------------------ */
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-content-con .left-contact h4 {
@@ -592,8 +627,12 @@ h4, p, .contact-info, h5 {
 }
 
 .contact-content-con .left-contact .contact-info .contact-item p {
-  margin: 0.3rem 0 !important;
-  padding: 0 !important;
+  margin: 0.3rem 0;
+  padding: 0;
+}
+
+.contact-content-con .left-contact .contact-info .contact-item span, p {
+  font-size: 1.2em;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon {
@@ -620,8 +659,8 @@ h4, p, .contact-info, h5 {
   background-color: var(--color-grey-5);
   cursor: pointer;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
@@ -639,46 +678,10 @@ h4, p, .contact-info, h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
-.contact-content-con .right-contact {
-  flex: 3;
-  margin-left: 3rem;
-}
-
-.contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
-}
-
-.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
-  border-radius: 30px;
-  font-weight: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  padding: 0.8rem 1.1rem;
-  outline: none;
-  border: none;
-  background-color: var(--color-grey-5);
-  width: 100%;
-  color: var(--color-white);
-  resize: none;
-}
-
-.contact-content-con .right-contact .i-c-2 {
-  display: flex;
-}
-
-.contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
-}
-
-.contact-content-con .right-contact .submit-btn {
-  display: flex;
-  justify-content: flex-start;
-}
-
-/*Independed components*/
+/*--------------------COMPONENTS------------------*/
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -763,7 +766,7 @@ h4, p, .contact-info, h5 {
 
 @media screen and (max-width: 600px) {
   header {
-    padding: 0 !important;
+    padding: 0;
   }
   .theme-btn {
     width: 50px;
@@ -832,26 +835,8 @@ h4, p, .contact-info, h5 {
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
-  }
   .contact-content-con {
     flex-direction: column;
-  }
-  .contact-content-con .right-contact {
-    margin-left: 0;
-    margin-top: 2.5rem;
-  }
-  .contact-content-con .right-contact .i-c-2 {
-    flex-direction: column;
-  }
-  .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-  .contact-content-con .right-contact {
-    margin-bottom: 6rem;
   }
   .contact-item {
     flex-direction: column;
@@ -903,10 +888,6 @@ h4, p, .contact-info, h5 {
   }
 }
 @media screen and (max-width: 1250px) {
-  .blogs {
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 6rem;
-  }
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -915,9 +896,6 @@ h4, p, .contact-info, h5 {
   }
 }
 @media screen and (max-width: 660px) {
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
-  }
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -929,11 +907,8 @@ h4, p, .contact-info, h5 {
   .about-container .right-about {
     padding-top: 2.5rem;
   }
-  .main-title h2 {
-    font-size: 4rem;
-  }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .main-title h2 {
     font-size: 4.5rem;
