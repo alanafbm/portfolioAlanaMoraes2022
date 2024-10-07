@@ -398,23 +398,23 @@ img {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 25%;
+  width: 75%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .php {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .nextjs {
+  width: 82%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
-  width: 55%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
+  width: 60%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .gitHub {
   width: 70%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-  width: 57%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .WP {
+  width: 40%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .agile {
