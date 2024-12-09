@@ -103,6 +103,13 @@ img {
     transform: translateY(0) scaleY(1);
   }
 }
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
 /* ---------------BTNS--------------------- */
 .controls {
   position: fixed;
@@ -614,6 +621,32 @@ img {
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
+}
+
+
+
+
+/* -----------------SERVICES ------------------------*/
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.services-container .containerServicesRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.services-container .containerServicesRow img{
+  object-fit: contain;
+  width: 50%;
 }
 
 /* ---------------------CONTACT------------------ */
