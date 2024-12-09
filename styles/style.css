@@ -275,6 +275,9 @@ img {
 .about-container {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 }
 
 .about-container .right-about {
@@ -327,10 +330,15 @@ img {
   height: 2px;
   background-color: var(--color-grey-5);
 }
+.about-container .imgAlana img{
+  width: 460px;
+  height: 480px;
+  object-fit: cover;
+}
 
-/* .about-container .left-about {
-  padding-right: 4rem;
-} */
+.about-container .left-about {
+  width: 100%;
+}
 
 .about-container .left-about p {
   line-height: 2rem;
@@ -496,7 +504,7 @@ img {
 
 .timeline .timeline-item .tl-duration {
   padding: 0.2rem 0.6rem;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-1);
   border-radius: 15px;
   display: inline-block;
   font-size: 0.8rem;
@@ -512,13 +520,13 @@ img {
 }
 
 .timeline .timeline-item h5 span {
-  color: var(--color-grey-2);
+  color: var(--color-secondary);
   font-weight: 500;
   font-size: 1.2rem;
 }
 
 .timeline .timeline-item p {
-  color: var(--color-grey-2);
+  color: var(--color-grey-5);
 }
 
 /* ----------------------PORTFOLIO------------------------ */
