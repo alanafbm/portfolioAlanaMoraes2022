@@ -18,7 +18,7 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
 }
 
 .light-mode {
@@ -38,11 +38,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-ul{
+
+ul {
   padding: 20px 40px;
   line-height: 1.65;
 }
-ul li{
+
+ul li {
   padding: 10px 0;
 }
 
@@ -70,13 +72,16 @@ section {
   padding: 3rem 18rem;
 }
 
-h4, p, .contact-info, h5 {
+h4,
+p,
+.contact-info,
+h5 {
   color: var(--color-grey-6);
 }
 
 img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container {
@@ -89,7 +94,7 @@ img {
 .active {
   display: block;
   -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
+  animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
 }
 
@@ -97,6 +102,7 @@ img {
   0% {
     transform: translateY(-100%) scaleY(0);
   }
+
   100% {
     transform: translateY(0) scaleY(1);
   }
@@ -106,18 +112,20 @@ img {
   0% {
     transform: translateY(-100%) scaleY(0);
   }
+
   100% {
     transform: translateY(0) scaleY(1);
   }
 }
 
-.flexColumn{
+.flexColumn {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 50%;
   height: inherit;
 }
+
 /* ---------------BTNS--------------------- */
 .controls {
   position: fixed;
@@ -235,7 +243,7 @@ img {
   top: 0;
   z-index: -1;
   -webkit-clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 120%);
-          clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 120%);
+  clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 120%);
 }
 
 .header-content .left-header .image {
@@ -251,7 +259,7 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.4s ease-in-out;
 }
 
@@ -273,18 +281,19 @@ img {
 .header-content .right-header .name span {
   color: var(--color-secondary);
 }
+
 .header-content .right-header .textHome span {
   color: var(--color-secondary);
   font-weight: bold;
 }
-
-
 
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
   font-size: 20px;
 }
+
+
 
 /*---------------------------ABOUT-ME--------------*/
 .about-container {
@@ -345,7 +354,8 @@ img {
   height: 2px;
   background-color: var(--color-grey-5);
 }
-.about-container .imgAlana img{
+
+.about-container .imgAlana img {
   width: 460px;
   height: 480px;
   object-fit: cover;
@@ -566,7 +576,7 @@ img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px;
 }
 
@@ -631,9 +641,6 @@ img {
   transform: scale(1);
 }
 
-
-
-
 /* -----------------SERVICES ------------------------*/
 
 .services-container {
@@ -642,14 +649,14 @@ img {
   gap: 90px;
 }
 
-.services-container .titleCenter{
+.services-container .titleCenter {
   font-size: 2em;
   text-align: center;
   text-decoration: underline;
-  color: var(--color-secondary) ;
+  color: var(--color-secondary);
 }
 
-.services-container .containerServicesRow{
+.services-container .containerServicesRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -658,7 +665,7 @@ img {
   height: auto;
 }
 
-.services-container .containerServicesColumn{
+.services-container .containerServicesColumn {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -667,19 +674,19 @@ img {
   height: auto;
 }
 
-.services-container .containerServicesRow img{
+.services-container .containerServicesRow img {
   object-fit: contain;
   width: 50%;
-  height: 800px;
+  /* height: 800px; */
 }
 
-.services-container .containerServicesColumn img{
+.services-container .containerServicesColumn img {
   object-fit: contain;
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
 }
 
-.services-container .containerServicesColumn .flexColumn{
+.services-container .containerServicesColumn .flexColumn {
   width: 90%;
 }
 
@@ -687,6 +694,7 @@ img {
   color: var(--color-secondary);
   font-weight: bold;
 }
+
 .services-container .containerServicesColumn .textHome span {
   color: var(--color-secondary);
   font-weight: bold;
@@ -713,7 +721,7 @@ img {
 
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -722,7 +730,8 @@ img {
   padding: 0;
 }
 
-.contact-content-con .left-contact .contact-info .contact-item span, p {
+.contact-content-con .left-contact .contact-info .contact-item span,
+p {
   font-size: 1.2em;
 }
 
@@ -855,39 +864,54 @@ img {
   padding-left: 0;
 }
 
+.iFrame iframe{
+  margin: 30px 0;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
   }
+
   .theme-btn {
     width: 50px;
     height: 50px;
   }
+
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+
   .left-header .h-shape {
     display: none;
   }
+
   .right-header {
     grid-row: 1;
     padding-right: 0rem;
     width: 90%;
     margin: 0 auto;
   }
-  h2{
+
+  h2 {
     text-align: center;
   }
+
   .right-header .name {
     font-size: 2.5rem;
     text-align: center;
     padding-top: 3rem;
   }
+
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
   }
+
   .controls {
     top: auto;
     bottom: 0;
@@ -898,165 +922,254 @@ img {
     width: 100%;
     background-color: var(--color-grey-5);
   }
+
   .controls .control {
     margin: 1rem 0.3rem;
   }
+
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
+
   .about-container .left-about {
     padding-right: 0;
   }
+
   .about-container .left-about p {
     padding-left: 0;
   }
+
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+
   /* .container {
     padding: 2rem 2.5rem !important;
   } */
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
+
   .contact-content-con {
     flex-direction: column;
   }
+
   .contact-item {
     flex-direction: column;
     margin: 1rem 0;
   }
+
   .contact-item p {
     color: var(--color-grey-5);
   }
+
   .contact-item span {
     font-size: 15px;
   }
+
   .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
+
   .main-title h2 {
     font-size: 2rem;
   }
+
   .main-title h2 span {
     font-size: 2.3rem;
   }
+
   .main-title h2 {
     font-size: 2.3rem;
   }
 }
+
 @media screen and (max-width: 1432px) {
   .container {
     padding: 7rem 11rem;
   }
+
   .contact-content-con {
     flex-direction: column;
   }
+
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
   }
+
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
+
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
+
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
+
   .main-title h2 {
     font-size: 5.5rem;
   }
 }
+
 @media screen and (max-width: 1250px) {
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .header-content .right-header {
     padding-right: 9rem;
   }
+
+  .about-container .imgAlana {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-container .imgAlana img {
+    width: auto;
+    align-items: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    width: 100%;
+  }
 }
+
 @media screen and (max-width: 660px) {
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
   }
+
 }
+
 @media screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .about-container .right-about {
     padding-top: 2.5rem;
   }
+
   .main-title h2 span {
     font-size: 4.5rem;
   }
+
   .main-title h2 {
     font-size: 4.5rem;
   }
+
+  .about-container .imgAlana img {
+    width: auto;
+  }
+
+  .about-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .right-header h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .right-header .textHome {
+    padding-right: 30px;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin-top: -60px;
+  }
 }
+
 @media screen and (max-width: 970px) {
   .container {
     padding: 7rem 6rem;
   }
+
   .about-container .left-about {
     padding-right: 0rem;
   }
+
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+
   .left-header .h-shape {
     display: none;
   }
+
   .left-header .image {
     width: 90% !important;
     margin: 0 auto !important;
   }
+
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
     width: 90%;
     margin: 0 auto;
   }
+
   .right-header .name {
     font-size: 2.5rem !important;
     text-align: center;
     padding-top: 3rem;
   }
+
+  .about-container .imgAlana img {
+    width: auto;
+  }
+
+  .about-container {
+    flex-direction: column;
+    width: 100%;
+  }
 }
+
 @media screen and (max-width: 700px) {
   .container {
     padding: 2rem 1rem 2rem 2.5rem;
   }
+
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-left: 1rem;
   }
+
   .main-title h2 {
     font-size: 3rem;
   }
+
   .main-title h2 span {
     font-size: 4rem;
   }
+
   .main-title h2 {
     font-size: 4rem;
   }
@@ -1064,30 +1177,37 @@ img {
   .about-container .imgAlana img {
     width: auto;
   }
-  .about-container{
+
+  .about-container {
     flex-direction: column;
     width: 100%;
   }
 
-  .services-container{
+  .services-container {
     gap: 40px;
   }
-  .services-container .containerServicesRow{
+
+  .services-container .containerServicesRow {
     flex-direction: column;
     gap: 20px;
     height: auto;
   }
-  .services-container .containerServicesColumn{
+
+  .services-container .containerServicesColumn {
     padding-bottom: 5rem;
   }
 
   .services-container .containerServicesColumn img {
     height: auto;
   }
+
   .services-container .containerServicesRow img {
     height: auto;
   }
+
   .flexColumn {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
