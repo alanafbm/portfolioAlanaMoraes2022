@@ -683,7 +683,7 @@ img {
 .services-container .containerServicesColumn img {
   object-fit: contain;
   width: 100%;
-  /* height: 800px; */
+  height: 800px;
 }
 
 .services-container .containerServicesColumn .flexColumn {
