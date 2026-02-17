@@ -464,19 +464,22 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="mailto:althea.pilates.therapies@gmail.com" method="POST" enctype="text/plain"
-                            class="contact-form">
+                        <form action="https://formspree.io/f/althea.pilates.therapies@gmail.com" method="POST"
+                            class="contact-form" id="contact-form">
                             <div class="input-control">
-                                <input type="text" required placeholder="Name" data-i18n-placeholder="form_name">
+                                <input type="text" name="name" required placeholder="Name"
+                                    data-i18n-placeholder="form_name">
                             </div>
                             <div class="input-control">
-                                <input type="email" required placeholder="Email" data-i18n-placeholder="form_email">
+                                <input type="email" name="email" required placeholder="Email"
+                                    data-i18n-placeholder="form_email">
                             </div>
                             <div class="input-control">
-                                <input type="tel" required placeholder="Phone" data-i18n-placeholder="form_phone">
+                                <input type="tel" name="phone" required placeholder="Phone"
+                                    data-i18n-placeholder="form_phone">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message"
+                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message"
                                     data-i18n-placeholder="form_message"></textarea>
                             </div>
                             <div class="submit-btn">
