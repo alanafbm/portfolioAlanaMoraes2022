@@ -108,12 +108,13 @@ window.language = {
     "disclaimer_note": {
         "fr": "Veuillez noter que les séances de massage et les cours de Pilates proposés ont pour but exclusif la relaxation, le bien-être général et le renforcement musculaire. En aucun cas, ces services ne remplacent un diagnostic, un avis ou un traitement médical. Si vous souffrez de douleurs persistantes, de blessures ou de conditions de santé particulières, il est impératif de consulter un médecin ou un professionnel de la santé qualifié avant de commencer toute activité. L’utilisation de nos services ne doit jamais retarder une consultation médicale.",
         "pt": "Por favor, note que as sessões de massagem e as aulas de Pilates propostas têm como objetivo exclusivo o relaxamento, o bem-estar geral e o fortalecimento muscular. Em caso algum estes serviços substituem um diagnóstico, um conselho ou um tratamento médico. Se sofre de dores persistentes, lesões ou condições de saúde particulares, é imperativo consultar um médico ou um profissional de saúde qualificado antes de iniciar qualquer atividade. A utilização dos nossos serviços nunca deve atrasar uma consulta médica."
+    },
     "edu_title_certification": { "fr": "CERTIFICATION", "pt": "CERTIFICAÇÃO" },
-        "edu_title_aec": { "fr": "AEC", "pt": "AEC" },
-        "edu_title_pilates": { "fr": "FORMATION EN PILATES", "pt": "FORMAÇÃO EM PILATES" },
-        "edu_title_acu": { "fr": "SPÉCIALISATION EN ACUPUNCTURE", "pt": "ESPECIALIZAÇÃO EM ACUPUNTURA" },
-        "edu_title_physio": { "fr": "BACCALAURÉAT", "pt": "GRADUAÇÃO" }
-    };
+    "edu_title_aec": { "fr": "AEC", "pt": "AEC" },
+    "edu_title_pilates": { "fr": "FORMATION EN PILATES", "pt": "FORMAÇÃO EM PILATES" },
+    "edu_title_acu": { "fr": "SPÉCIALISATION EN ACUPUNCTURE", "pt": "ESPECIALIZAÇÃO EM ACUPUNTURA" },
+    "edu_title_physio": { "fr": "BACCALAURÉAT", "pt": "GRADUAÇÃO" }
+};
 
 // check localstorage
 // if dont exist create default to 'en' ( parse json )
