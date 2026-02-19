@@ -1,4 +1,4 @@
-window.language = {
+const language = {
     // Navigation
     "nav_home": { "fr": "Accueil", "pt": "Início" },
     "nav_about": { "fr": "À propos", "pt": "Sobre" },
@@ -115,6 +115,8 @@ window.language = {
     "edu_title_acu": { "fr": "SPÉCIALISATION EN ACUPUNCTURE", "pt": "ESPECIALIZAÇÃO EM ACUPUNTURA" },
     "edu_title_physio": { "fr": "BACCALAURÉAT", "pt": "GRADUAÇÃO" }
 };
+
+window.language = language;
 
 // check localstorage
 // if dont exist create default to 'en' ( parse json )

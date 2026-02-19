@@ -21,12 +21,18 @@
         lang = lang.toUpperCase();
         const langKey = lang.toLowerCase();
 
-        const langObj = window.language || {};
+        const langObj = window.language;
+        if (!langObj) {
+            console.error("Language object not found!");
+            return;
+        }
 
         document.querySelectorAll("[data-i18n]").forEach(el => {
             const key = el.getAttribute("data-i18n");
             if (langObj[key] && langObj[key][langKey]) {
                 el.innerHTML = langObj[key][langKey];
+            } else {
+                console.warn(`Translation key missing: ${key} for lang: ${langKey}`);
             }
         });
 
