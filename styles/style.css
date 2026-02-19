@@ -1377,19 +1377,45 @@ img {
     margin-top: 1.5rem;
   }
 
+  .container {
+    padding: 1.5rem 1rem !important;
+  }
+
   .main-title h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    text-align: center;
   }
 
   .main-title h2 span {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .port-text {
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .services-details {
+    padding: 1rem;
+  }
+
+  /* Ensure all paragraphs have side breathing room */
+  p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .timeline {
     padding-left: 0;
   }
 
+  .iFrame iframe {
+    min-height: 350px;
+    margin: 15px 0;
+  }
+
   .timeline-item {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
   }
 }

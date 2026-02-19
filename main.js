@@ -87,7 +87,9 @@
             servicesSelection.style.display = "block";
             // Reset massage description when going back
             const descContainer = document.getElementById("massage-desc-container");
+            const globalExplanation = document.querySelector(".massage-explanation-general");
             if (descContainer) descContainer.style.display = "none";
+            if (globalExplanation) globalExplanation.style.display = "block";
             document.querySelectorAll(".massage-item").forEach(item => item.classList.remove("active-card"));
         });
     });
@@ -104,6 +106,9 @@
             const langObj = window.language || {};
 
             if (langObj[descKey] && langObj[descKey][langKey]) {
+                const globalExplanation = document.querySelector(".massage-explanation-general");
+                if (globalExplanation) globalExplanation.style.display = "none";
+
                 massageItems.forEach(i => i.classList.remove("active-card"));
                 item.classList.add("active-card");
 

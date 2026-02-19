@@ -85,8 +85,8 @@ window.language = {
         "pt": "O <span>Reiki</span> é uma abordagem energética de origem japonesa que visa restabelecer a harmonia natural entre o corpo, as emoções e a mente.<br><br>Durante uma sessão de Reiki Nível I, a pessoa permanece vestida e confortavelmente instalada na mesa de tratamento. O praticante aplica as mãos delicadamente em diferentes zonas do corpo ou ligeiramente acima, permitindo que a energia circule onde é necessária.<br><br>O <span>Reiki</span> atua principalmente no sistema energético, apoiando o equilíbrio dos chakras — centros energéticos situados ao longo da coluna vertebral. Cada chakra está associado a aspetos físicos, emocionais e psíquicos:<br><br>• <b>Chakra raiz</b>: segurança, estabilidade, enraizamento<br>• <b>Chakra sacro</b>: emoções, criatividade<br>• <b>Plexo solar</b>: confiança, poder pessoal<br>• <b>Chakra do coração</b>: amor, relações<br>• <b>Chakra da garganta</b>: comunicação<br>• <b>Terceira visão</b>: intuição<br>• <b>Chakra coroa</b>: conexão espiritual<br><br>Quando a energia circula livremente, o corpo ativa naturalmente os seus mecanismos de autorregulação.<br><br>Uma sessão pode ajudar a :<br>• Reduzir o stress e a ansiedade<br>• Favorecer um estado de relaxamento profundo<br>• Apoiar o equilíbrio emocional<br>• Melhorar a qualidade do sono<br>• Proporcionar uma sensação de harmonização global"
     },
     "m_auriculo_desc": {
-        "fr": "L’auriculothérapie est une technique issue de la médecine traditionnelle chinoise qui consiste à stimuler des points précis sur l’oreille...",
-        "pt": "A auriculoterapia é uma técnica derivada da medicina tradicional chinesa que consiste em estimular pontos específicos na orelha..."
+        "fr": "L’auriculo-acupuncture est une technique thérapeutique qui consiste à stimuler des points spécifiques situés sur l’oreille, considérée comme une représentation réflexe du corps entier.<br><br>En agissant sur ces points à l’aide d’aiguilles fines ou de stimulations adaptées, cette approche vise à soutenir l’équilibre énergétique, à soulager certaines douleurs et à accompagner la régulation du stress et des émotions.<br><br>Douce et personnalisée, l’auriculo-acupuncture s’intègre harmonieusement aux autres thérapies proposées, dans une vision globale du bien-être.",
+        "pt": "A auriculoacupuntura é uma técnica terapêutica que consiste em estimular pontos específicos situados na orelha, considerada como uma representação reflexa de todo o corpo.<br><br>Ao atuar sobre esses pontos com agulhas finas ou estímulos adaptados, esta abordagem visa apoiar o equilíbrio energético, aliviar certas dores e acompanhar a regulação do estresse e das emoções.<br><br>Suave e personalizada, a auriculoacupuntura integra-se harmoniosamente com as outras terapias propostas, numa visão global do bem-estar."
     },
 
     // Contact
@@ -108,8 +108,12 @@ window.language = {
     "disclaimer_note": {
         "fr": "Veuillez noter que les séances de massage et les cours de Pilates proposés ont pour but exclusif la relaxation, le bien-être général et le renforcement musculaire. En aucun cas, ces services ne remplacent un diagnostic, un avis ou un traitement médical. Si vous souffrez de douleurs persistantes, de blessures ou de conditions de santé particulières, il est impératif de consulter un médecin ou un professionnel de la santé qualifié avant de commencer toute activité. L’utilisation de nos services ne doit jamais retarder une consultation médicale.",
         "pt": "Por favor, note que as sessões de massagem e as aulas de Pilates propostas têm como objetivo exclusivo o relaxamento, o bem-estar geral e o fortalecimento muscular. Em caso algum estes serviços substituem um diagnóstico, um conselho ou um tratamento médico. Se sofre de dores persistentes, lesões ou condições de saúde particulares, é imperativo consultar um médico ou um profissional de saúde qualificado antes de iniciar qualquer atividade. A utilização dos nossos serviços nunca deve atrasar uma consulta médica."
-    }
-};
+    "edu_title_certification": { "fr": "CERTIFICATION", "pt": "CERTIFICAÇÃO" },
+        "edu_title_aec": { "fr": "AEC", "pt": "AEC" },
+        "edu_title_pilates": { "fr": "FORMATION EN PILATES", "pt": "FORMAÇÃO EM PILATES" },
+        "edu_title_acu": { "fr": "SPÉCIALISATION EN ACUPUNCTURE", "pt": "ESPECIALIZAÇÃO EM ACUPUNTURA" },
+        "edu_title_physio": { "fr": "BACCALAURÉAT", "pt": "GRADUAÇÃO" }
+    };
 
 // check localstorage
 // if dont exist create default to 'en' ( parse json )
